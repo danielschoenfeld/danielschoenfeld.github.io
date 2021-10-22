@@ -1,5 +1,5 @@
 // I will be creating a different pen with touch support but right // now I have no time for it due to school
-
+console.log("Hello World")
 const slider = document.querySelector(".items");
 const slides = document.querySelectorAll(".item");
 const button = document.querySelectorAll(".button");
