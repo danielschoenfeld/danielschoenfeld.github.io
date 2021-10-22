@@ -2,8 +2,9 @@
 console.log("Hello World")
 const slider = document.querySelector(".items");
 const slides = document.querySelectorAll(".item");
-const button_prev = document.querySelectorAll(".button-prev");
-const button_next = document.querySelectorAll(".button-next");
+const button_prev = document.getElementById("button-prev");
+const button_next = document.getElementById("button-next")
+
 
 let current = 0;
 let prev = 4;
