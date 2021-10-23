@@ -6,7 +6,7 @@
 
 body {
     padding-top: 5vh;
-  background: rgb(94, 94, 94);
+  background: rgb(94, 94, 94) !important;
   user-select: none;
 }
 
@@ -183,16 +183,16 @@ body {
 .heading {
     width: 100%;
     text-align: center;
-    margin-top: 20px;
+    margin-top: 30px;
 }
 
 h1 {
-    font-weight:900 !important;
-    font-size: 2em !important;
+    font-weight: bolder !important;
+    font-size: 8vw !important;
 }
 
 h2 {
-    font-size: 1em !important;
+    font-size: 4vw !important;
 }
 
 .select, .selectpicker {
